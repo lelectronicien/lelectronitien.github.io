@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: linear-gradient(#00988f, #545454);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-part,
+.right-part {
+  display: flex;
+  flex-direction: column;
+
+}
+.left-part {
+  background-color: rgba(196, 196, 196, 0.3);
+  align-items: center;
+    width: 370px;
+}
+.right-part {
+  background-color: white;
+}
+
+.mail,
+.phone,
+.adresse,
+.personalite,
+.langues,
+.interet {
+  background-color: #c4c4c48f;
+  width: 350px;
+  margin-bottom: 5px;
+}
+
+.mail,
+.phone,
+.adresse {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+}
+.personalite,
+.langues,
+.interet {
+  height: 200px;
+}
+
+.formations,
+.competences,
+.experiences {
+  color: #545454;
+  font-size: 20px;
+}
+
+.profil-image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: #c4c4c48f solid 5px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.fullname, .langues-title{
+  font-size: 25px;
+  font-weight: bold;
+  color: azure;
+}
+
+.firstname {
+  color: rgb(231, 231, 103);
+}
+.langues{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.langue{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* @media screen and (min-width: 768px) {
+  
+.container {
+justify-content: space-between;
+}
+
+.left-part,.right-part{
+  flex-basis: 50%;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mail,
+.phone,
+.adresse,
+.personalite,
+.langues,
+.interet{
+  width: 600px;
+  margin-bottom: 5%;
+  border-radius: 20px;
+}
+
+.left-part{
+ margin: 40px 5px 0px 199px;
+width: 350px;
+}
+.right-part{
+margin: 215px 40px 0px 5px;
+ width: 350px;
+}
+
+.mail,
+.phone,
+.adresse{
+  font-size: 20px;
+}
+
+.langue{
+  width: 50px;
+  height: 50px;
+}
+
+.formations,
+.competences,
+.experiences{
+  font-size: 20px;
+  margin-left: 0px;
+}
+} */
