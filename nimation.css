@@ -1,0 +1,10 @@
+@keyframes name {
+      from {color:rgb(231, 231, 103);}
+  to {color: rgb(19, 19, 18);}
+}
+
+span {
+    animation-name: name;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}

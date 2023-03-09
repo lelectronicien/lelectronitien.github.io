@@ -19,12 +19,12 @@ body {
 .right-part {
   display: flex;
   flex-direction: column;
+  width: 370px;
 
 }
 .left-part {
   background-color: rgba(196, 196, 196, 0.3);
   align-items: center;
-    width: 370px;
 }
 .right-part {
   background-color: white;
@@ -33,7 +33,6 @@ body {
 .mail,
 .phone,
 .adresse,
-.personalite,
 .langues,
 .interet {
   background-color: #c4c4c48f;
@@ -43,7 +42,7 @@ body {
 
 .mail,
 .phone,
-.adresse {
+.adresse,.interet {
   height: 70px;
   display: flex;
   align-items: center;
@@ -52,7 +51,6 @@ body {
   font-weight: 700;
   font-size: 20px;
 }
-.personalite,
 .langues,
 .interet {
   height: 200px;
@@ -75,16 +73,16 @@ body {
   margin-top: 10px;
 }
 
-.fullname, .langues-title{
+.fullname, .title{
   font-size: 25px;
   font-weight: bold;
   color: azure;
 }
 
-.firstname {
+span {
   color: rgb(231, 231, 103);
 }
-.langues{
+.langues,.interet{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -96,54 +94,9 @@ body {
   object-fit: contain;
 }
 
-/* @media screen and (min-width: 768px) {
-  
-.container {
-justify-content: space-between;
+.know{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
 
-.left-part,.right-part{
-  flex-basis: 50%;
-  border-radius: 2%;
-  display: flex;
-  flex-direction: column;
-}
-
-.mail,
-.phone,
-.adresse,
-.personalite,
-.langues,
-.interet{
-  width: 600px;
-  margin-bottom: 5%;
-  border-radius: 20px;
-}
-
-.left-part{
- margin: 40px 5px 0px 199px;
-width: 350px;
-}
-.right-part{
-margin: 215px 40px 0px 5px;
- width: 350px;
-}
-
-.mail,
-.phone,
-.adresse{
-  font-size: 20px;
-}
-
-.langue{
-  width: 50px;
-  height: 50px;
-}
-
-.formations,
-.competences,
-.experiences{
-  font-size: 20px;
-  margin-left: 0px;
-}
-} */
