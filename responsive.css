@@ -1,0 +1,20 @@
+@media  screen and (min-width:500px) {
+    .container{
+        flex-direction: row;
+        align-items: end;
+        
+    }
+
+    .left-part, .right-part{
+        width:auto;
+    }
+    .left-part{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .right-part{
+        margin: 0 0 2.5rem 3rem;
+    }
+
+
+}

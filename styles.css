@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
 .container {
   background: linear-gradient(#00988f, #545454);
   display: flex;
@@ -20,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 370px;
+  border-radius: 1.5rem;
 
 }
 .left-part {
@@ -39,6 +45,7 @@ body {
   background-color: #c4c4c48f;
   width: 350px;
   margin-bottom: 5px;
+  border-radius: 1.5rem;
 }
 
 .mail,
@@ -51,6 +58,10 @@ body {
   color: aliceblue;
   font-weight: 700;
   font-size: 20px;
+}
+
+.mail{
+
 }
 .langues,
 .interet {
