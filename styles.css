@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: linear-gradient(#00988f, #545454);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-part,
+.right-part {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+
+}
+.left-part {
+  background-color: rgba(196, 196, 196, 0.3);
+  align-items: center;
+}
+.right-part {
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+}
+
+.mail,
+.phone,
+.adresse,
+.langues,
+.interet {
+  background-color: #c4c4c48f;
+  width: 350px;
+  margin-bottom: 5px;
+}
+
+.mail,
+.phone,
+.adresse,.interet {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+}
+.langues,
+.interet {
+  height: 200px;
+}
+
+.formations,
+.competences,
+.experiences {
+  color: #545454;
+  font-size: 20px;
+}
+
+.profil-image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: #c4c4c48f solid 5px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.fullname, .title{
+  font-size: 25px;
+  font-weight: bold;
+  color: azure;
+}
+
+span {
+  color: rgb(231, 231, 103);
+}
+.langues,.interet{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.langue{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.know{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
